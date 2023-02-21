@@ -1,0 +1,74 @@
+﻿*{padding:0; margin:0;}
+
+body{
+    background-color: black;
+}
+
+.authorization{
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    box-shadow: white 0 0 10px 3px;
+    width: 400px;
+    height: 155px;
+    background-color: black;
+}
+
+.form-control{
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial;
+    background-color:white;
+    border: 0;
+    margin: 0 90px;
+    height: 20px;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    transform: scale(1.2);
+    background-color: black;
+    color:white;
+}
+
+.confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 120px;
+    background-color: white;
+    height: 30px;
+    transition: 0.2s;
+    border-radius: 4px;
+}
+
+.confirm:hover{
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+}
+
+.confirm:focus {
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+}
+
+.head-authorization{
+    color: white;
+    align-self: center;
+}
+
+.toRegistr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
